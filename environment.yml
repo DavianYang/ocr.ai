@@ -1,0 +1,13 @@
+name: base
+channels:
+  - tensorflow
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - conda
+  - python=3.9
+  - python.app
+  - pytorch
+  - tensorflow
+prefix: /Users/thantyarzarhein/opt/miniconda3
