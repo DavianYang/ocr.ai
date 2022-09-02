@@ -1,3 +1,6 @@
+import csv
+import numpy as np
+
 def export_mini_dataset(dataset_path, mini_dataset_path, data_limit=10, file_format='csv'):    
     with open(dataset_path, 'r') as old_file:
         reader = csv.reader(old_file)
