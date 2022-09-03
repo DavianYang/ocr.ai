@@ -30,8 +30,6 @@ extra = {}
 
 install_requires = [
     "torch>=1.7.0",
-    "pytorch-ignite>=0.4.2",
-    "pytorch-lightning>=1.0.0",
     "prettytable>=2.0.0",
 ]
 
@@ -42,10 +40,10 @@ extra["dev"] = extra["testing"] + extra["quality"]
 
 
 setup(
-    name="toydet",
+    name="ocr.ai",
     version=VERSION,
-    author="toyai",
-    url="https://github.com/toyai/template",
+    author="DavidYang",
+    url="https://github.com/DavianYang/ocr.ai",
     description="Just template",
     long_description_content_type="text/markdown",
     long_description=readme,
